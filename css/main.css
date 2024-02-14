@@ -2182,7 +2182,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .info-toggle::after {
-  content: "More Info";
+  content: "About Us";
   display: block;
   position: absolute;
   top: 0;
