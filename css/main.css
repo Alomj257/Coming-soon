@@ -53,7 +53,7 @@ html {
 html,
 body {
   height: 100%;  /* prevent horizontal scrolling */
-  margin-bottom: 20px;
+  overflow: scroll;
 }
 
 body {
@@ -121,7 +121,7 @@ h5, .h5, h6, .h6 {
 @media only screen and (max-width:600px) {
   h5, .h5, h6, .h6 {
     margin-top: 3.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
   }
 }
 
@@ -1795,7 +1795,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 
   .home-content br {
@@ -2326,7 +2326,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:800px) {
   .s-info {
-    padding: 1rem 0 9rem;
+    padding: 18rem 0 9rem;
   }
 
 }
