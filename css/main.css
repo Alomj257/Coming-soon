@@ -52,7 +52,7 @@ html {
 
 html,
 body {
-  height: 100vh;  /* prevent horizontal scrolling */
+  height: 130vh;  /* prevent horizontal scrolling */
   overflow: hidden;
 }
 
